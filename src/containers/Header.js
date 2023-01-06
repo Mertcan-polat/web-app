@@ -3,11 +3,8 @@ import Button from "./Button";
 
 const Header = () => {
   let Links = [
-    { name: "HOME", link: "/" },
-    { name: "Service", link: "/" },
-    { name: "About", link: "/" },
-    { name: "Blogs", link: "/" },
-    { name: "Contact", link: "/" },
+    { id: 1, name: "HOME", link: "/" },
+    { id: 2, name: "My Portfolio", link: "https://mertcan-polat.github.io/portfolio/" },
   ];
   let [open, setOpen] = useState(false);
   return (
@@ -32,10 +29,11 @@ const Header = () => {
             } md:opacity-100 opacity-0 `}
           >
             {Links.map((link) => (
-              <li key={link.name} className="md:ml-8 text-xl md:my-0 my-7">
+              <li key={link.id} className="md:ml-8 text-xl md:my-0 my-7">
                 <a
                   href={link.link}
                   className="text-gray-800 hover:text-gray-400 duration-500"
+                  target={link.id === 2 ? "_blank" : ''}
                 >
                   {link.name}
                 </a>

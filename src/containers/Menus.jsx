@@ -25,9 +25,6 @@ export const SUPPORT = [
 ];
 
 export const Icons = [
-  { name: "logo-facebook", link: "#" },
-  { name: "logo-twitter", link: "#" },
-  { name: "logo-github", link: "#" },
-  { name: "logo-linkedin", link: "#" },
-  { name: "logo-instagram", link: "#" },
+  { id: 1, name: "logo-github", link: "https://github.com/Mertcan-polat" },
+  { id: 2, name: "logo-linkedin", link: "https://www.linkedin.com/in/mertcan-polat-17b687136/" },
 ];

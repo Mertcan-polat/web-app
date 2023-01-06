@@ -27,7 +27,7 @@ const ProductDetails = () => {
     };
   }, [productId]);
   return (
-    <div className="ui grid container">
+    <div className="ui grid container mt-3">
       {Object.keys(product).length === 0 ? (
         <div>...Loading</div>
       ) : (
@@ -39,12 +39,12 @@ const ProductDetails = () => {
                 <img className="ui fluid image" src={image} />
               </div>
               <div className="column rp">
-                <h1>{title}</h1>
-                <h2>
+                <h1 className="font-semibold text-4xl">{title}</h1>
+                <h4 className="mt-2">
                   <a className="ui teal tag label">${price}</a>
-                </h2>
-                <h3 className="ui brown block header">{category}</h3>
-                <p>{description}</p>
+                </h4>
+                <h5 className="ui brown block header">{category}</h5>
+                <p className="mb-4">{description}</p>
                 <div className="ui vertical animated button" tabIndex="0">
                   <div className="hidden content">
                     <i className="shop icon"></i>
