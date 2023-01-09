@@ -1,9 +1,9 @@
 
 export const SUPPORT = [
-  { name: "Documentation", link: "#" },
-  { name: "Tutorials & guides", link: "#" },
-  { name: "Webinars", link: "#" },
-  { name: "Open-source", link: "#" },
+  { name: "Documentation", link: "https://satis.amazon.com.tr/satis/baslangic-kilavuzu?ld=SETRSOAADGog_17284006312_135476315903_kwd-1698715270_b_630435782614_c_asret_" },
+  { name: "Tutorials & guides", link: "https://satis.amazon.com.tr/satis/baslangic-kilavuzu?ld=SETRSOAADGog_17284006312_135476315903_kwd-1698715270_b_630435782614_c_asret_" },
+  { name: "Webinars", link: "https://satis.amazon.com.tr/satis/baslangic-kilavuzu?ld=SETRSOAADGog_17284006312_135476315903_kwd-1698715270_b_630435782614_c_asret_" },
+  { name: "Open-source", link: "https://satis.amazon.com.tr/satis/baslangic-kilavuzu?ld=SETRSOAADGog_17284006312_135476315903_kwd-1698715270_b_630435782614_c_asret_" },
 ];
 
 export const COMPANY = [
