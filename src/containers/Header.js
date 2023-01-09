@@ -39,8 +39,13 @@ const Header = () => {
                 </a>
               </li>
             ))}
-            <Button>Get Started</Button>
-          </ul>
+            <a
+              className="bg-indigo-600 text-white font-[Poppins] py-2 px-6 rounded md:ml-8 hover:bg-indigo-400 duration-500"
+              target="_blank"
+              href="https://github.com/Mertcan-polat?tab=repositories"
+            >
+              About My Works
+            </a>          </ul>
         </div>
       </div>
       <div className="ui container center"></div>

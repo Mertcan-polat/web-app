@@ -10,6 +10,7 @@ const Item = ({ Links, title }) => {
             className="text-gray-400 hover:text-teal-400 duration-300
           text-sm cursor-pointer leading-6"
             href={link.link}
+            target="_blank"
           >
             {link.name}
           </a>
